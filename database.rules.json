@@ -1,0 +1,27 @@
+{
+  "rules": {
+    ".read": true,
+    ".write": false,
+
+    "smartlock": {
+      ".read": true,
+      ".write": true,
+      "relay": {
+        ".read": true,
+        ".write": true
+      },
+      "logs": {
+        ".read": true,
+        ".write": true
+      }
+    },
+    "activityLogs": {
+      ".read": true,
+      ".write": true
+    },
+    "relays": {
+      ".read": true,
+      ".write": true
+    }
+  }
+}
