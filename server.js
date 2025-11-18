@@ -22,7 +22,7 @@ app.get('/', (req, res) => {
 
 app.listen(PORT, () => {
   console.log(`\n======================================`);
-  console.log(`🚀 Server running on http://192.168.20.8:${PORT}`);
+  console.log(`🚀 Server running on http://192.168.20.19:${PORT}`);
   console.log(`======================================`);
   console.log(`✅ Auth API (MySQL) Loaded`);
   console.log(`✅ Relay API (MQTT) Loaded`);
